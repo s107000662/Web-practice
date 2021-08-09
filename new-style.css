@@ -11,7 +11,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-family: "icon91";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    speak: none;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
@@ -497,6 +496,29 @@ height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+.iFBxMS {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+
+
+.iFSqVk {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 0px 0px 10px 20px;
+    min-height: 20px;
+}
+.cKVnLS {
+    flex: 1 1 0%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 36px;
+}
 .cavroH {
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -510,6 +532,16 @@ height: 100%;
     text-decoration: none;
     cursor: pointer;
 }
+.glmTMd {
+    display: inline-block;
+    padding: 4px;
+    border-radius: 2px;
+    margin-left: 5px;
+    line-height: normal;
+    font-size: 11px;
+    color: rgb(255, 83, 83);
+    background-color: rgb(255, 242, 242);
+}
 .iGrGHL {
     display: flex;
     -webkit-box-pack: center;
@@ -521,6 +553,13 @@ height: 100%;
 .cuaMTp {
     transform: rotate(
 0deg
+);
+    transition: transform 0.25s ease 0s;
+    cursor: pointer;
+}
+.jhgkvy {
+    transform: rotate(
+180deg
 );
     transition: transform 0.25s ease 0s;
     cursor: pointer;
