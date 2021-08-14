@@ -577,31 +577,25 @@ height: 100%;
     color: #fff;
     background-color: #222;
 }
-.tooltip--custom--clickable {
-    pointer-events: auto;
-}
-.tooltip--custom {
-    padding: 5px 15px;
-    opacity: 1 !important;
-    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%);
-}
 .__react_component_tooltip {
+    display: none;
+    margin-top: -20px;
+    position: absolute;
+    right: 130%;
+    transform: translateY(-50%);
+    background: #ff2750;
+    color: #ffffff;
     border-radius: 3px;
-    display: inline-block;
     font-size: 13px;
-    left: -999em;
-    opacity: 0;
     padding: 8px 21px;
-    position: fixed;
-    pointer-events: none;
-    transition: opacity 0.3s ease-out;
-    top: -999em;
-    visibility: hidden;
-    z-index: 999;
+    height: 22px;
+    line-height: 22px;
+    font-weight: 200;
+    white-space: nowrap;
 }
 .toolbox__item:hover .toolbox__tooltip
 {
-    visibility:visible
+    display: block;
 }
 .toolbox__icon.icon-messenger-circle {
     color: #0084ff;
@@ -745,6 +739,11 @@ toolbox__icon.icon-top, .toolbox__icon.icon-cumulative, .toolbox__icon.icon-bag-
     box-sizing: border-box;
 }
 .csUhko {
+    display: block;
+    padding: 25px 20px;
+}
+.csUhko2 {
+    display: none;
     padding: 25px 20px;
 }
 .fpKIVf {
