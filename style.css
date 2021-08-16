@@ -156,7 +156,6 @@ height: 100%;
 }
 .download-app-menu .download-app-menu-link .apple, .download-app-menu .download-app-menu-link .google {
     display: block;
-    width: 90%;
     height: inherit;
     margin: 0 auto;
 }
